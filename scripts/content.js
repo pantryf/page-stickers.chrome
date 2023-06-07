@@ -37,10 +37,10 @@ async function fetchFile(url) {
 async function main() {
   var head = document.head;
   var body = document.body;
-  head.appendChild(linkTag('stylesheet', chrome.runtime.getURL('stickers/text-rainbow-eckles.css')));
-  var newSabine = await fetchFile(chrome.runtime.getURL('stickers/text-rainbow-eckles.html'));
+  head.appendChild(linkTag('stylesheet', chrome.runtime.getURL('stickers/sad-face-mohammad.css')));
+  var newSabine = await fetchFile(chrome.runtime.getURL('stickers/sad-face-mohammad.html'));
   var div  = document.createElement('div');
-  div.id   = 'sticker-text-rainbow-eckles';
+  div.id   = 'sad-face-mohammad';
   div.className = 'sticker';
   div.innerHTML = newSabine;
   body.appendChild(div);

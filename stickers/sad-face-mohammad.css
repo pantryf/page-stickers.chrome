@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.sticker-sad-face-mohammad * {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto ,sans-serif;
+}
+
+.sticker-sad-face-mohammad {
+  font-family: 'Roboto', sans-serif;
+  /* background: #11344a; */
+  position: relative;
+  bottom: 1vw;
+}
+
+.sticker-sad-face-mohammad {
+  display: flex;
+  justify-content: center;
+}
+
+.sticker-sad-face-mohammad .elips {
+  /* position: absolute;
+  top: 50%; */
+  width: 50px;
+  height: 50px;
+  background: #ff0000;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  transition: 0.5s;
+}
+
+.sticker-sad-face-mohammad .elips:hover {
+  border-radius: 50%;
+}
+
+.sticker-sad-face-mohammad .td {
+    display: flex;
+    position: relative;
+    top: 30%;
+    display: grid;
+    justify-content: center;
+}
+
+.sticker-sad-face-mohammad .ht {
+  display: flex;
+  position: relative;
+  bottom: 10%;
+  justify-content: center;
+}
+
+.sticker-sad-face-mohammad span {
+  width: 30px;
+  height: 5px;
+  margin: 1px 0;
+  border-radius: 5px;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+.sticker-sad-face-mohammad .dots {
+  width: 5px;
+  height: 5px;
+  margin: 0 4px;
+  background: #fff;
+  opacity: 0;
+  border-radius:50%;
+  transition: 0.5s;
+}
+
+.sticker-sad-face-mohammad .elips:hover .bar1 {
+  transform :translateY(14px);
+  border-radius: 5px;
+}
+
+.sticker-sad-face-mohammad .elips:hover .bar2,
+.sticker-sad-face-mohammad .elips:hover .bar3 {
+  opacity: 0;
+}
+
+.sticker-sad-face-mohammad .elips:hover .dots {
+  opacity: 1;
+}
+
+.sticker-sad-face-mohammad h1 {
+  position: relative;
+  top: 50%;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  font-size: 10px;
+  opacity: 0;
+  transition: 0.5s ease-out 0.3s;
+}
+
+.sticker-sad-face-mohammad .elips:hover h1 {
+  opacity: 1;
+}
+/* https://codepen.io/Mjufhhjh/pen/YzGYerg */
