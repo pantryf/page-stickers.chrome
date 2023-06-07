@@ -1,0 +1,38 @@
+.sticker-new-sabine {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  top: -3em;
+  right: 3em;  /* left: -1.7em; */
+}
+
+.sticker-new-sabine > .body,
+.sticker-new-sabine > .body::before,
+.sticker-new-sabine > .body::after {
+  height: 2.1em;
+  width: 2.1em;
+  background: orange;
+  position: absolute;
+}
+
+.sticker-new-sabine > .body::before {
+  content: '';
+  transform: rotate(30deg);
+}
+
+.sticker-new-sabine > .body::after {
+  content: '';
+  transform: rotate(-30deg);
+}
+
+.sticker-new-sabine > .text {
+  background: orange;
+  color: white;
+  font: 0.8em/1 'Archivo Narrow', sans-serif;
+  letter-spacing: 0.09em;
+  position: absolute;
+  left: 0.1em;
+  top: 0.8em;
+  transform: rotate(-15deg);
+}
+/* https://codepen.io/zabien/pen/rXjrdW */

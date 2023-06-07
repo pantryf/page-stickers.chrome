@@ -7,3 +7,4 @@ Decorate webpages with stickers.
 ## References
 
 - [Sticker Mania : mystickermania.com](https://mystickermania.com/)
+- [How to inject CSS into webpage through Chrome extension?](https://stackoverflow.com/a/9862207/1413259)

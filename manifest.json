@@ -5,7 +5,12 @@
   "description": "Decorate webpages with stickers.",
   "content_scripts": [{
     "js": ["scripts/content.js"],
+    "css": ["scripts/content.css"],
     "matches": ["*://*/*"]
+  }],
+  "web_accessible_resources": [{
+    "resources": ["stickers/*"],
+    "matches": ["https://*/*"]
   }],
   "icons": {
     "16":  "icons/16.png",
