@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.text-indianred-tseng {
+  font-size: calc(100vw / 1334 * 100);
+}
+
+.text-indianred-tseng {
+  /* background-color: #ccc; */
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.text-indianred-tseng > .text {
+  font-size: clamp(30px, 0.36rem, 45px);
+  text-align: center;
+  color: indianred;
+  text-shadow: 3px 3px 0 pink;
+  filter: drop-shadow(0 0 5px #777);
+  position: relative;
+  z-index: 1001;
+}
+.text-indianred-tseng > .text:before {
+  content: attr(data-stroke);
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 10px #fff;
+  z-index: -1;
+  text-shadow: none;
+}
+.text-indianred-tseng > .text:after {
+  content: attr(data-stroke);
+}
